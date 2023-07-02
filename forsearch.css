@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@600&family=Raleway&family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.search {
+    background-color: rgb(245, 68, 180);
+
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.element {
+    background-color: red;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    background-color: white;
+    border: none;
+    border-radius: 2rem;
+
+
+}
+
+input[type="text"],
+button {
+    height: 2.5rem;
+    border: none;
+    outline: none;
+    padding: 0.2rem;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+button {
+    color: white;
+    background-color: blue;
+    width: 4.7rem;
+}
+
+button:hover {
+    color: black;
+    background-color: rgb(113, 113, 228);
+    cursor: pointer;
+    font-weight: 700;
+}
+
+::placeholder {
+    font-weight: 700;
+}
+
+h1 {
+    font-family: 'Playfair', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(232, 246, 44);
+}
+
+input[type="text"] {
+    padding-left: 1rem;
+}
+img{
+    display: none;
+    width:50%;
+    height: 50%;
+}

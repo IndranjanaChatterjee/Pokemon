@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 80%;
+    width: 80%;
+
+}
+img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    filter: drop-shadow(2px 1px 35px rgb(199, 199, 139)) ;
+}
+.p{
+    
+    margin: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(white,black);
+    
+
+    
+}
+#uxie{
+    height:380px;
+    width: 380px;
+}
