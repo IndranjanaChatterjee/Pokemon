@@ -12,6 +12,11 @@ body {
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
+    background-image: url("https://64.media.tumblr.com/a73f1371b81085a8328848fc1b946e8e/603798b75499dcc9-74/s640x960/b3abd05c5c63ae4d0d4ea3b6c953747015372620.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .search {
