@@ -27,6 +27,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    backdrop-filter: blur(5rem);
 }
 
 .element {
