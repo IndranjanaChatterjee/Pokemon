@@ -8,6 +8,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
     
 }
 .box{
@@ -15,6 +16,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    
 }
 img{
     height: 80%;
@@ -24,7 +26,7 @@ img{
 img:hover{
     transform: scale(1.1);
     cursor: pointer;
-    filter: drop-shadow(2px 1px 35px rgb(199, 199, 139)) ;
+    filter: drop-shadow(2px 1px 35px rgb(73, 73, 120)) ;
 }
 .p{
     
@@ -33,16 +35,27 @@ img:hover{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(white,black);
+    
     position: relative;
+    border-radius: 2.5rem;
     
 
     
 }
+.p:nth-child(odd)
+{
+    background: linear-gradient(rgb(132, 204, 237),rgb(139, 235, 230),rgb(229, 229, 134),rgb(244, 142, 159));
+
+}
+.p:nth-child(even)
+{
+    background: linear-gradient(to top, rgb(112, 129, 208),rgb(157, 212, 117),rgb(210, 208, 111));
+
+}
 h1{
     color: aliceblue;
 }
-.hover1{
+.hover{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,7 +68,8 @@ h1{
     opacity: 0;
     
 }
-.hover1:hover{
+.p:hover .hover
+{
     opacity: 1;
 }
 
