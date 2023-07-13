@@ -11,9 +11,20 @@ body {
   justify-content: center;
   align-items: center;
   background-color: black;
-  
+  flex-direction: column;
   font-family: "Raleway", sans-serif;
   
+}
+#head{
+  width: 90%;
+  background-color: #7dee12;
+  font-size: 3.5rem;
+  margin: 1rem auto;
+  border-radius: 3rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .box {
   display: flex;
