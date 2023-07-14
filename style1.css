@@ -17,20 +17,24 @@ body {
 }
 #head{
   width: 90%;
-  background-color: #7dee12;
+  background:linear-gradient(to bottom right,#f070e5,#f3c212);
   font-size: 3.5rem;
-  margin: 1rem auto;
+  margin: 1.5rem auto;
   border-radius: 3rem;
-  height: 5rem;
+  text-align: center;
+  flex-wrap: wrap;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0.5rem;
+  color:#3B94BA ;
 }
 .box {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  max-width: 100%;
 }
 img {
   height: 80%;
@@ -68,7 +72,8 @@ img:hover {
   );
 }
 h1 {
-  color: aliceblue;
+  color: #18020C;
+  font-size: 3rem;
   
 }
 .hover {
