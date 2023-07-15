@@ -27,7 +27,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 0.5rem;
-  color:#3B94BA ;
+  color:black;
 }
 .box {
   display: flex;

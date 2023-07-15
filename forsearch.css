@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@600&family=Raleway&family=Roboto+Slab&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Belanosima:wght@600&family=Dancing+Script:wght@700&family=Fraunces:wght@400;700&family=Freehand&family=Lobster&family=Merriweather:ital,wght@0,700;1,400;1,900&family=Montserrat:wght@400;500;600&family=Outfit:wght@200;400;700&family=Playfair+Display:wght@600&family=Playfair:wght@600&family=Raleway:wght@400;500&family=Roboto+Condensed:ital,wght@0,400;1,700&family=Roboto+Slab&display=swap');
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -17,17 +20,20 @@ body {
     background-size: 100% 100%;
     background-position: center;
     background-attachment: fixed;
+    font-family: 'Merriweather', serif;
 }
 
 .search {
     
 
-    width: 30vw;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    backdrop-filter: blur(5rem);
+    backdrop-filter: blur(4rem);
+    padding: 3rem;
+    border-radius: 3rem;
 }
 
 .element {
@@ -52,7 +58,7 @@ button {
     padding: 0.2rem;
     border-radius: 2rem;
     font-size: 0.8rem;
-    font-family: Arial, Helvetica, sans-serif;
+    
 
 }
 
@@ -74,10 +80,12 @@ button:hover {
 }
 
 h1 {
-    font-family: 'Playfair', serif;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto Slab', serif;
+    
     color: rgb(232, 246, 44);
+    text-align: center;
+    margin: 2rem;
+    width: 100%;
+    font-size: 3rem;
 }
 
 input[type="text"] {
@@ -85,6 +93,36 @@ input[type="text"] {
 }
 img{
     display: none;
-    width:50%;
+    width:90%;
     height: 50%;
+}
+#info
+{
+    
+    color: white;
+    margin: 1.5rem;
+    font-size: 2.5rem;
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#info p{
+    padding: 0.5rem;
+    text-align: center;
+}
+.msg,.result
+{
+    color: red;
+    font-size: 1.5rem;
+    background-color: white;
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem;
+    font-weight: 700;
+    text-align: center;
+    display: none;
+    margin: 1rem;
 }
