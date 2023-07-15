@@ -1,0 +1,89 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Belanosima:wght@600&family=Fraunces:wght@400;700&family=Freehand&family=Merriweather:ital,wght@0,700;1,900&family=Montserrat:wght@400;500;600&family=Outfit:wght@200;400;700&family=Playfair+Display:wght@600&family=Playfair:wght@600&family=Raleway:wght@400;500&family=Roboto+Condensed:ital,wght@0,400;1,700&family=Roboto+Slab&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Belanosima:wght@600&family=Dancing+Script:wght@700&family=Fraunces:wght@400;700&family=Freehand&family=Merriweather:ital,wght@0,700;1,900&family=Montserrat:wght@400;500;600&family=Outfit:wght@200;400;700&family=Playfair+Display:wght@600&family=Playfair:wght@600&family=Raleway:wght@400;500&family=Roboto+Condensed:ital,wght@0,400;1,700&family=Roboto+Slab&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Belanosima:wght@600&family=Dancing+Script:wght@700&family=Fraunces:wght@400;700&family=Freehand&family=Lobster&family=Merriweather:ital,wght@0,700;1,900&family=Montserrat:wght@400;500;600&family=Outfit:wght@200;400;700&family=Playfair+Display:wght@600&family=Playfair:wght@600&family=Raleway:wght@400;500&family=Roboto+Condensed:ital,wght@0,400;1,700&family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:linear-gradient(to bottom left,white,rgb(42, 16, 16),#2580f7);
+    font-family: 'Playfair Display', serif;
+}
+#head
+{
+    width: 90%;
+    font-size: 3rem;
+    padding: 1.1rem;
+    margin: 2rem auto;
+    border: none;
+    border-radius: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to bottom left,#d3fc04,#41a3a5,rgb(6, 251, 6));
+    color: white;
+    font-weight: 700;
+}
+.container,.show
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.show
+{
+    margin:2rem auto;
+    width: 100%;
+}
+iframe
+{
+    max-width: 100%;
+    border-radius: 3rem;
+    transition: all 0.3s ease-in-out;
+}
+iframe:hover
+{
+    box-shadow: 1px 2px 25px 20px rgb(242, 242, 115);
+}
+.round
+{
+    background:linear-gradient(to bottom left,rgb(240, 240, 101),#81da5f,#d13785,red);
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 1rem;
+    margin: 1rem auto;
+    border: none;
+    border-radius: 3rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    text-decoration: underline;
+    color: white;
+    font-weight: 700;
+}
+.name{
+    background:linear-gradient(to bottom left,#b703ab,#d8d5a2);
+    width: 90%;
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.5rem;
+    margin: 2rem auto;
+    border: none;
+    border-radius: 3rem;
+    font-family: 'Lobster', cursive;
+
+}
+
