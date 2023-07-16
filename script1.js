@@ -20,6 +20,7 @@ click.addEventListener("click", () => {
     document.getElementById("img").style.display = "none";
     document.querySelector(".result").style.display = "none";
   } else {
+    val=val.toLowerCase();
     let p = fetch(`https://pokeapi.co/api/v2/pokemon/${val}`);
     p.then((v) => {
       return v.json();
