@@ -1,8 +1,17 @@
 const search = document.getElementById("text");
-let audio;
+let audio,count=0;
 click.addEventListener("click", () => {
   let val = search.value;
+  if(count>0)
+  {
+    audio.pause();
+    setInterval(()=>
+    {
+      audio.play();
+    },1000)
+  }
   audio=new Audio("poke.mp3");
+  count=count+1;
   audio.play();
   console.log(val);
   if (val == "" || val == null) {
