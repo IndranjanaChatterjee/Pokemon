@@ -39,6 +39,7 @@ body {
 img {
   height: 80%;
   width: 80%;
+  transition: all 0.3s ease-in-out;
 }
 img:hover {
   transform: scale(1.1);
@@ -94,6 +95,7 @@ h1 {
   margin: 1rem;
   font-weight: 700;
   padding: 0.2rem;
+  transition: all 0.3s ease-in-out;
 }
 .show:hover{
     background-color: #7dee12;
@@ -102,6 +104,7 @@ h1 {
 }
 .info{
     display: none;
+    transition: all 0.5s ease-in-out;
 
 }
 .info p{
