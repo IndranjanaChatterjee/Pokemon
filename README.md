@@ -1,2 +1,2 @@
 # Pokemon website
-pokede
+pokedex
