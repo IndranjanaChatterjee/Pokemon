@@ -1,5 +1,3 @@
 # Pokemon website
 
-
-
 pokedex
